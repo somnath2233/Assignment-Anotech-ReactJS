@@ -1,0 +1,62 @@
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+
+# Compiled files (such as JavaScript, CSS, and other assets)
+/node_modules/
+/dist/
+/build/
+/out/
+
+# Dependency directories
+/bower_components/
+/vendor/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor specific
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Compiled Java files
+*.class
+
+# Log files
+*.log
+
+# Cache files
+*.cache
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# macOS metadata files
+.AppleDouble
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows folder config files
+desktop.ini
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
